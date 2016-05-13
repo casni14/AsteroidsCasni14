@@ -38,5 +38,15 @@
             <artifactId>MovementOSGi</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>Particle</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>ParticleInitialiser</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>

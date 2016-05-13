@@ -24,6 +24,8 @@ public class BulletPlugin implements IGamePluginService {
     @Override
     public void start(GameData gameData, Map<String, Entity> world) {
         
+          BulletHandler.getInstance().setWorld(world);
+        
         for (Entity player : world.values()) {
             if (player.getType() == EntityType.PLAYER) {
                 BulletHandler.getInstance().setPlayer(player);

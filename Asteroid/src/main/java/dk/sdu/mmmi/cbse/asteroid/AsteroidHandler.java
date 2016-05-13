@@ -18,6 +18,7 @@ import java.util.Random;
 public class AsteroidHandler {
 
     private Entity player;
+    private Entity asteroid;
     private Map<String, Entity> world;
     private GameData gameData;
     private Random rd = new Random();
@@ -67,6 +68,7 @@ public class AsteroidHandler {
             flyingAsteroid.getDists()[i] = rd.nextFloat() * (radius - radius / 2) + radius / 2;
         }
 
+        setAsteroid(flyingAsteroid);
         world.put(flyingAsteroid.getID(), flyingAsteroid);
     }
 
@@ -93,7 +95,7 @@ public class AsteroidHandler {
         flyingAsteroid.setIsHit(false);
 
         float radius = flyingAsteroid.getRadius();
-        
+
         if (entity.getRadius() == LARGE) {
             radius = MEDIUM;
         }
@@ -105,9 +107,9 @@ public class AsteroidHandler {
             flyingAsteroid.getDists()[i] = rd.nextFloat() * (radius - radius / 2) + radius / 2;
         }
 
+        setAsteroid(flyingAsteroid);
         world.put(flyingAsteroid.getID(), flyingAsteroid);
     }
-
 
     protected void checkCollitions(Entity entity) {
         if (!player.getIsHit()) {
@@ -117,6 +119,28 @@ public class AsteroidHandler {
                 splitAsteroids(entity);
             }
         }
+    }
+    
+    protected void updateShape(Entity entity) {
+
+        float angle = 0;
+        float[] shapex = entity.getShapeX();
+        float[] shapey = entity.getShapeY();
+        float[] dists = entity.getDists();
+        float x = entity.getX();
+        float y = entity.getY();
+        float radians = entity.getRadians();
+
+        for (int i = 0; i < shapex.length; i++) {
+            shapex[i] = x + (float) Math.cos(angle + radians) * dists[i];
+            shapey[i] = y + (float) Math.sin(angle + radians) * dists[i];
+
+            angle += 2 * 3.1415f / shapex.length;
+        }
+
+        entity.setShapeX(shapex);
+        entity.setShapeY(shapey);
+
     }
 
     private boolean intersects(Entity entity) {
@@ -158,7 +182,7 @@ public class AsteroidHandler {
             insertAsteroid(entity);
         }
     }
-    
+
     public Entity getPlayer() {
         return player;
     }
@@ -181,6 +205,14 @@ public class AsteroidHandler {
 
     public void setGameData(GameData gameData) {
         this.gameData = gameData;
+    }
+
+    public Entity getAsteroid() {
+        return asteroid;
+    }
+
+    public void setAsteroid(Entity asteroid) {
+        this.asteroid = asteroid;
     }
 
 }

@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1463050507529
+Bnd-LastModified: 1463103032545
 Build-Jdk: 1.8.0_60
 Built-By: casperbeese
 Bundle-Activator: dk.sdu.mmmi.cbse.movementosgi.Activator

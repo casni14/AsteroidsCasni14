@@ -6,6 +6,7 @@
 package dk.sdu.mmmi.cbse.bullet;
 
 import dk.sdu.mmmi.cbse.common.data.Entity;
+import java.util.Map;
 
 /**
  *
@@ -15,6 +16,7 @@ public class BulletHandler {
 
     private int bulletCounter;
     private Entity player;
+    private Map<String, Entity> world;
 
     private BulletHandler() {
     }
@@ -29,19 +31,23 @@ public class BulletHandler {
     }
 
     protected void insertBullet(Entity entity) {
-        float x = getPlayer().getX();
-        float y = getPlayer().getY();
-        float radians = getPlayer().getRadians();
+        Entity player = new Entity();
+        player = getPlayer();
+        float x = player.getX();
+        float y = player.getY();
+        float radians = player.getRadians();
 
         Entity bullet = new Entity();
-        
+
         bullet.setX(x);
         bullet.setY(y);
         bullet.setRadians(radians);
         bullet.setMaxSpeed(350);
-        bullet.setDx((float) Math.cos(radians) * getPlayer().getMaxSpeed());
+        bullet.setDx((float) Math.cos(radians) * player.getMaxSpeed());
+        bullet.setDy((float) Math.sin(radians) * player.getMaxSpeed());
         bullet.setRadius(2);
-        
+
+        world.put(bullet.getID(), bullet);
     }
 
     public int getBulletCounter() {
@@ -58,6 +64,14 @@ public class BulletHandler {
 
     public void setPlayer(Entity player) {
         this.player = player;
+    }
+
+    public Map<String, Entity> getWorld() {
+        return world;
+    }
+
+    public void setWorld(Map<String, Entity> world) {
+        this.world = world;
     }
 
 }

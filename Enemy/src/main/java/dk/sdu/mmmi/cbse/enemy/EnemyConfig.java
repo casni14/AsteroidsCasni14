@@ -20,8 +20,8 @@ public class EnemyConfig {
     
     @Bean
     @Scope(value = "prototype")
-    public EnemyControlSystemBean createEnemyControlSystemService(){
-        return new EnemyControlSystemBean();
+    public EnemyProcessingSerivceBean createEnemyProcessingService(){
+        return new EnemyProcessingSerivceBean();
     }
     
     @Bean

@@ -22,7 +22,9 @@ public class EnemyPluginWrapper implements IGamePluginService{
 
     @Override
     public void start(GameData gameData, Map<String, Entity> world) {
+        Handler.getInstance().installBeans();
         if (enemyPlugin != null) {
+        
            enemyPlugin.start(gameData, world);
         }
     }

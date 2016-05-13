@@ -58,7 +58,7 @@ public class EnemyPluginBean {
 
     
     public void stop(GameData gameData) {
-        System.out.println("Stopped EnemyPlugin");
+       world.remove(enemy);
     }
     
 }

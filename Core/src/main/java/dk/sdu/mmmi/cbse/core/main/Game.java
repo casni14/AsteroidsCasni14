@@ -28,7 +28,7 @@ public class Game implements ApplicationListener {
     private final Lookup lookup = Lookup.getDefault();
     private final GameData gameData = new GameData();
     private Map<String, Entity> world = new ConcurrentHashMap<>();
-    private List<IGamePluginService> gamePlugins;
+    private List<IGamePluginService> gamePlugins = new CopyOnWriteArrayList<>();
     private Lookup.Result<IGamePluginService> result;
     
     @Override
@@ -46,13 +46,12 @@ public class Game implements ApplicationListener {
 
         result = lookup.lookupResult(IGamePluginService.class);
         result.addLookupListener(lookupListener);
-        gamePlugins = new ArrayList<>(result.allInstances());
         result.allItems();
 
-        for (IGamePluginService plugin : getPluginServices()) {
-            plugin.start(gameData, world);
-            gamePlugins.add(plugin);
-        }
+//        for (IGamePluginService plugin : gamePlugins) {
+//            plugin.start(gameData, world);
+//            gamePlugins.add(plugin);
+//        }
     }
 
     @Override
@@ -116,9 +115,9 @@ public class Game implements ApplicationListener {
     private Collection<? extends IEntityProcessingService> getEntityProcessingServices() {
         return lookup.lookupAll(IEntityProcessingService.class);
     }
-    private Collection<? extends IGamePluginService> getPluginServices() {
-        return lookup.lookupAll(IGamePluginService.class);
-    }
+//    private Collection<? extends IGamePluginService> getPluginServices() {
+//        return lookup.lookupAll(IGamePluginService.class);
+//    }
 
     private final LookupListener lookupListener = new LookupListener() {
         @Override

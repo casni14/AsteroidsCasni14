@@ -46,39 +46,37 @@ public class AsteroidProcessor implements IEntityProcessingService {
 
             radians += rotationSpeed * dt;
 
-            entity.setX(x);
-            entity.setY(y);
             entity.setDx(dx);
             entity.setDy(dy);
             entity.setRadians(radians);
             AsteroidHandler.getInstance().checkCollitions(entity);
-            setShape(entity);
+            AsteroidHandler.getInstance().updateShape(entity);
             
         }
 
     }
 
-    private void setShape(Entity entity) {
-
-        float angle = 0;
-        float[] shapex = entity.getShapeX();
-        float[] shapey = entity.getShapeY();
-        float[] dists = entity.getDists();
-        float x = entity.getX();
-        float y = entity.getY();
-        float radians = entity.getRadians();
-
-        for (int i = 0; i < shapex.length; i++) {
-            shapex[i] = x + (float) Math.cos(angle + radians) * dists[i];
-            shapey[i] = y + (float) Math.sin(angle + radians) * dists[i];
-
-            angle += 2 * 3.1415f / shapex.length;
-        }
-
-        entity.setShapeX(shapex);
-        entity.setShapeY(shapey);
-
-    }
+//    private void updateShape(Entity entity) {
+//
+//        float angle = 0;
+//        float[] shapex = entity.getShapeX();
+//        float[] shapey = entity.getShapeY();
+//        float[] dists = entity.getDists();
+//        float x = entity.getX();
+//        float y = entity.getY();
+//        float radians = entity.getRadians();
+//
+//        for (int i = 0; i < shapex.length; i++) {
+//            shapex[i] = x + (float) Math.cos(angle + radians) * dists[i];
+//            shapey[i] = y + (float) Math.sin(angle + radians) * dists[i];
+//
+//            angle += 2 * 3.1415f / shapex.length;
+//        }
+//
+//        entity.setShapeX(shapex);
+//        entity.setShapeY(shapey);
+//
+//    }
 //
 //    private void checkCollitions(Entity entity) {
 //        if (!player.getIsHit()) {

@@ -34,11 +34,11 @@ public class BulletProcessor implements IEntityProcessingService {
 //        }
 
         for (Entity ent : world.values()) {
-            if (ent.getType().equals(PLAYER)) {
+            if (ent.getType() == PLAYER) {
                  for (Event evt : gameData.getEvents()) {
                     if (evt.getType().equals(PLAYER_SHOOT)) {
                         BulletHandler.getInstance().insertBullet(entity);
-                        
+                      
                     }
                 }
             }
@@ -49,9 +49,10 @@ public class BulletProcessor implements IEntityProcessingService {
                     }
                 }
             }
+           
         }
-
-        updateBullet(entity, gameData.getDelta());
+  updateBullet(entity, gameData.getDelta());
+       
     }
 
     private void updateBullet(Entity entity, float dt) {

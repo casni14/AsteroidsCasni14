@@ -7,6 +7,7 @@ package dk.sdu.mmmi.cbse.asteroid;
 
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.EntityType;
+import static dk.sdu.mmmi.cbse.common.data.EntityType.ASTEROIDS;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 import static dk.sdu.mmmi.cbse.common.data.EntityType.PLAYER;
@@ -22,9 +23,12 @@ import org.openide.util.lookup.ServiceProvider;
 public class AsteroidPlugin implements IGamePluginService {
 
     Random rd = new Random();
+    Map<String, Entity> world;
 
     @Override
     public void start(GameData gameData, Map<String, Entity> world) {
+        
+        this.world = world;
 
         AsteroidHandler.getInstance().setWorld(world);
         AsteroidHandler.getInstance().setGameData(gameData);
@@ -47,7 +51,11 @@ public class AsteroidPlugin implements IGamePluginService {
 
     @Override
     public void stop(GameData gameData) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        for(Entity ent : world.values()){
+            if (ent.getType() == ASTEROIDS) {
+                 world.remove(ent.getID());
+            }
+        }
     }
 
 }
