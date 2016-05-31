@@ -28,8 +28,8 @@ public class AsteroidProcessor implements IEntityProcessingService {
         float x = entity.getX();
         float y = entity.getY();
         float dt = gameData.getDelta();
-        float dx = entity.getDx();
-        float dy = entity.getDy();
+        float dx;
+        float dy;
         float maxSpeed = entity.getMaxSpeed();
         float radians = entity.getRadians();
         float rotationSpeed = entity.getRotationSpeed();

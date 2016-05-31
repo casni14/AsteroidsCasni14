@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Friday, May 13, 2016 3:32:52 AM CEST
+>Log Session: Tuesday, May 17, 2016 1:48:51 PM CEST
 >System Info: 
   Product Version         = AsteroidsNetbeansModules 201510222201
   Operating System        = Mac OS X version 10.11.4 running on x86_64
@@ -47,6 +47,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.api.progress.nb [1.46.1 201510222201]
 	org.netbeans.modules.autoupdate.services [1.51.1 201510222201]
 	org.apache.felix.scr [1.8.2 1.8.2]
+	dk.sdu.mmmi.cbse.Spring [1.0 1.0-20160513 201605130130]
 	dk.sdu.mmmi.cbse.SilentUpdate [1.0 1.0-20160513 201605130130]
 	dk.sdu.mmmi.cbse.Common [1.0 1.0-20160513 201605130130]
 	dk.sdu.mmmi.cbse.Player [1.0 1.0-20160513 201605130130]
@@ -54,179 +55,169 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	dk.sdu.mmmi.cbse.Particle [1.0.0 1.0.0.SNAPSHOT]
 	dk.sdu.mmmi.cbse.MovementOSGi [1.0.0 1.0.0.SNAPSHOT]
 	dk.sdu.mmmi.cbse.Launcher [1.0 1.0-20160513 201605130130]
-	dk.sdu.mmmi.cbse.AsteroidsNetbeansModules.branding [1.0 1.0-20160513 201605130130]
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 started
-INFO [org.netbeans.core.netigso.Netigso]: Cannot load service class
-INFO [null]: Last record repeated again.
-INFO [null]: Last record repeated 3 more times.
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Enemy[dk.sdu.mmmi.cbse.Enemy/1.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Collision[dk.sdu.mmmi.cbse.Collision/1.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Asteroid[dk.sdu.mmmi.cbse.Asteroid/1.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Bullet[dk.sdu.mmmi.cbse.Bullet/1.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[dk.sdu.mmmi.cbse.Core/1.0]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Spring[dk.sdu.mmmi.cbse.Spring/1.0]
-INFO [org.netbeans.core.netigso.Netigso]: Cannot load service class
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Asteroid.nbm
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Asteroid.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-Asteroid.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Asteroid.xml
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Asteroid.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-Asteroid.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Asteroid.jar
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update/download/dk-sdu-mmmi-cbse-Asteroid.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@198ef3c2
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Asteroid.xml modified.
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Asteroid.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Bullet.nbm
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Bullet.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-Bullet.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Bullet.xml
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Bullet.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-Bullet.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Bullet.jar
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update/download/dk-sdu-mmmi-cbse-Bullet.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@7779d247
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Bullet.xml modified.
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Bullet.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Spring.nbm
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Spring.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-Spring.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Spring.xml
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Spring.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-Spring.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Spring.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/aopalliance/aopalliance.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Spring/aopalliance/aopalliance.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/aopalliance/aopalliance.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/commons-logging/commons-logging.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Spring/commons-logging/commons-logging.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/commons-logging/commons-logging.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-aop.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-aop.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-aop.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-beans.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-beans.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-beans.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-context.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-context.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-context.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-core.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-core.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-core.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-expression.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-expression.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Spring/org-springframework/spring-expression.jar
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update/download/dk-sdu-mmmi-cbse-Spring.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@6e9c0ff1
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Spring.xml modified.
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Spring.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Collision.nbm
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Collision.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-Collision.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Collision.xml
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Collision.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-Collision.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Collision.jar
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update/download/dk-sdu-mmmi-cbse-Collision.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@5d14636b
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Collision.xml modified.
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Collision.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Enemy.nbm
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Enemy.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-Enemy.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Enemy.xml
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Enemy.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-Enemy.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Enemy.jar
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update/download/dk-sdu-mmmi-cbse-Enemy.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@212bf9c9
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Enemy.xml modified.
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Enemy.xml@0
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Core.nbm
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Core.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-Core.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Core.xml
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Core.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-Core.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Core.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-box2d-platform-natives-desktop.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-box2d-platform-natives-desktop.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-box2d-platform-natives-desktop.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-box2d.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-box2d.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-box2d.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-freetype-platform-natives-desktop.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-freetype-platform-natives-desktop.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-freetype-platform-natives-desktop.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-freetype.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-freetype.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-freetype.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-platform-natives-desktop.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-platform-natives-desktop.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx-platform-natives-desktop.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-gdx/gdx.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-jlayer/jlayer.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-jlayer/jlayer.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/com-badlogicgames-jlayer/jlayer.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/net-java-jinput/jinput.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/net-java-jinput/jinput.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/net-java-jinput/jinput.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/net-java-jutils/jutils.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/net-java-jutils/jutils.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/net-java-jutils/jutils.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/org-jcraft/jorbis.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-jcraft/jorbis.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/org-jcraft/jorbis.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-linux.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-linux.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-linux.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-osx.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-osx.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-osx.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-windows.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-windows.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-windows.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl.jar
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl_util.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl_util.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/ext/dk.sdu.mmmi.cbse.Core/org-lwjgl-lwjgl/lwjgl_util.jar
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update/download/dk-sdu-mmmi-cbse-Core.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@2f6d0cf3
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Core.xml modified.
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Core.xml@0
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update/download/additional_information.xml deleted.
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Install new modules done.
-Turning on modules...
-Loading module services...
-Loading modules...
-Starting modules...
-INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
-	dk.sdu.mmmi.cbse.Spring [1.0 1.0-20160513 201605130130]
 	dk.sdu.mmmi.cbse.Enemy [1.0 1.0-20160513 201605130130]
 	dk.sdu.mmmi.cbse.Core [1.0 1.0-20160513 201605130130]
 	dk.sdu.mmmi.cbse.Collision [1.0 1.0-20160513 201605130130]
 	dk.sdu.mmmi.cbse.Bullet [1.0 1.0-20160513 201605130130]
-	dk.sdu.mmmi.cbse.Asteroid [1.0 1.0-20160513 201605130130]
-Turning on modules...done.
+	dk.sdu.mmmi.cbse.AsteroidsNetbeansModules.branding [1.0 1.0-20160513 201605130130]
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 started
 INFO [org.netbeans.core.netigso.Netigso]: Cannot load service class
-INFO [null]: Last record repeated again.
-INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
-INFO [null]: Last record repeated again.
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Uninstall found: Asteroid[dk.sdu.mmmi.cbse.Asteroid/1.0]
-INFO [org.netbeans.core.startup.NbEvents]: Turning off modules:
-	dk.sdu.mmmi.cbse.Asteroid [1.0 1.0-20160513 201605130130]
-Turning off modules...
-Turning off modules...done.
-INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext]: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@78da8ecc: startup date [Fri May 13 03:33:13 CEST 2016]; root of context hierarchy
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Unstall modules done.
-INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Asteroid[dk.sdu.mmmi.cbse.Asteroid/1.0]
-INFO [org.netbeans.updater]: 780: Unpacking dk-sdu-mmmi-cbse-Asteroid.nbm
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Asteroid.xml@0
-INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/dk-sdu-mmmi-cbse-Asteroid.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/config/Modules/dk-sdu-mmmi-cbse-Asteroid.xml
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Asteroid.jar@0
-INFO [org.netbeans.updater]: Copied file netbeans/modules/dk-sdu-mmmi-cbse-Asteroid.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/modules/dk-sdu-mmmi-cbse-Asteroid.jar
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update/download/dk-sdu-mmmi-cbse-Asteroid.nbm deleted.
-INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@7b95825a
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Asteroid.xml modified.
-INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update_tracking/dk-sdu-mmmi-cbse-Asteroid.xml@0
-INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/asteroidsnetbeansmodules/update/download/additional_information.xml deleted.
-INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
-	dk.sdu.mmmi.cbse.Asteroid [1.0 1.0-20160513 201605130130]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Install new modules done.
-Turning on modules...
-Loading module services...
-Loading modules...
-Turning on modules...done.
-INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
-INFO [null]: Last record repeated again.
-INFO [null]: Last record repeated 2 more times.
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Uninstall found: Asteroid[dk.sdu.mmmi.cbse.Asteroid/1.0]
-INFO [org.netbeans.core.startup.NbEvents]: Turning off modules:
-	dk.sdu.mmmi.cbse.Asteroid [1.0 1.0-20160513 201605130130]
-INFO [org.netbeans.modules.autoupdate.silentupdate]: Unstall modules done.
-Turning off modules...
-Turning off modules...done.
-INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
-INFO [null]: Last record repeated again.
-INFO [null]: Last record repeated again.
-INFO [null]: Last record repeated again.
-INFO [null]: Last record repeated again.
-INFO [null]: Last record repeated again.
-INFO [null]: Last record repeated again.
-INFO [null]: Last record repeated again.
-INFO [null]: Last record repeated again.
-INFO [null]: Last record repeated again.
-INFO [null]: Last record repeated more than 10 times, further logs of this record are ignored until the log record changes.
+INFO [null]: Last record repeated 3 more times.
+INFO [null]: Last record repeated 3 more times.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Diablo2d-branding[com.se.sem4.group2.Diablo2d.branding/1.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Npc[com.se.sem4.group2.Npc/1.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Player[com.se.sem4.group2.Player/1.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Collider[com.se.sem4.group2.Collider/1.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Common[com.se.sem4.group2.Common/1.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Silent Update[com.se.sem4.group2.SilentUpdate/1.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Map[com.se.sem4.group2.Map/1.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Core[com.se.sem4.group2.Core/1.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Weapon[com.se.sem4.group2.Weapon/1.0]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: AI[com.se.sem4.group2.AI/1.0]
+INFO [org.netbeans.core.netigso.Netigso]: Cannot load service class
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Diablo2d-branding[com.se.sem4.group2.Diablo2d.branding/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Npc[com.se.sem4.group2.Npc/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Common[com.se.sem4.group2.Common/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Player[com.se.sem4.group2.Player/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Collider[com.se.sem4.group2.Collider/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Silent Update[com.se.sem4.group2.SilentUpdate/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Map[com.se.sem4.group2.Map/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Core[com.se.sem4.group2.Core/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Weapon[com.se.sem4.group2.Weapon/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in AI[com.se.sem4.group2.AI/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Diablo2d-branding[com.se.sem4.group2.Diablo2d.branding/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Npc[com.se.sem4.group2.Npc/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Common[com.se.sem4.group2.Common/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Player[com.se.sem4.group2.Player/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Collider[com.se.sem4.group2.Collider/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Silent Update[com.se.sem4.group2.SilentUpdate/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Map[com.se.sem4.group2.Map/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Core[com.se.sem4.group2.Core/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in Weapon[com.se.sem4.group2.Weapon/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.modules.autoupdate.services.InstallManager]: Declared target cluster diablo2d in AI[com.se.sem4.group2.AI/1.0] wasn't found or was read only. Will be used /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra
+INFO [org.netbeans.core.netigso.Netigso]: Cannot load service class
+INFO [org.netbeans.updater]: 780: Unpacking com-se-sem4-group2-Diablo2d-branding.nbm
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Diablo2d-branding.xml@0
+INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/com-se-sem4-group2-Diablo2d-branding.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Diablo2d-branding.xml
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Diablo2d-branding.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/com-se-sem4-group2-Diablo2d-branding.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Diablo2d-branding.jar
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update/download/com-se-sem4-group2-Diablo2d-branding.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@78afb593
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Diablo2d-branding.xml modified.
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Diablo2d-branding.xml@0
+INFO [org.netbeans.updater]: 780: Unpacking com-se-sem4-group2-Common.nbm
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Common.xml@0
+INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/com-se-sem4-group2-Common.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Common.xml
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Common.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/com-se-sem4-group2-Common.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Common.jar
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update/download/com-se-sem4-group2-Common.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@6a5adfe4
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Common.xml modified.
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Common.xml@0
+INFO [org.netbeans.updater]: 780: Unpacking com-se-sem4-group2-Collider.nbm
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Collider.xml@0
+INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/com-se-sem4-group2-Collider.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Collider.xml
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Collider.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/com-se-sem4-group2-Collider.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Collider.jar
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update/download/com-se-sem4-group2-Collider.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@158ed342
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Collider.xml modified.
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Collider.xml@0
+INFO [org.netbeans.updater]: 780: Unpacking com-se-sem4-group2-Weapon.nbm
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Weapon.xml@0
+INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/com-se-sem4-group2-Weapon.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Weapon.xml
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Weapon.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/com-se-sem4-group2-Weapon.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Weapon.jar
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update/download/com-se-sem4-group2-Weapon.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@61a2eb1b
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Weapon.xml modified.
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Weapon.xml@0
+INFO [org.netbeans.updater]: 780: Unpacking com-se-sem4-group2-Npc.nbm
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Npc.xml@0
+INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/com-se-sem4-group2-Npc.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Npc.xml
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Npc.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/com-se-sem4-group2-Npc.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Npc.jar
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update/download/com-se-sem4-group2-Npc.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@121f7841
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Npc.xml modified.
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Npc.xml@0
+INFO [org.netbeans.updater]: 780: Unpacking com-se-sem4-group2-Player.nbm
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Player.xml@0
+INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/com-se-sem4-group2-Player.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Player.xml
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Player.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/com-se-sem4-group2-Player.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Player.jar
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update/download/com-se-sem4-group2-Player.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@70713ec
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Player.xml modified.
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Player.xml@0
+INFO [org.netbeans.updater]: 780: Unpacking com-se-sem4-group2-AI.nbm
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-AI.xml@0
+INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/com-se-sem4-group2-AI.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-AI.xml
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-AI.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/com-se-sem4-group2-AI.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-AI.jar
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update/download/com-se-sem4-group2-AI.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@579a1364
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-AI.xml modified.
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-AI.xml@0
+INFO [org.netbeans.updater]: 780: Unpacking com-se-sem4-group2-SilentUpdate.nbm
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-SilentUpdate.xml@0
+INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/com-se-sem4-group2-SilentUpdate.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-SilentUpdate.xml
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-SilentUpdate.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/com-se-sem4-group2-SilentUpdate.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-SilentUpdate.jar
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update/download/com-se-sem4-group2-SilentUpdate.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@b82c608
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-SilentUpdate.xml modified.
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-SilentUpdate.xml@0
+INFO [org.netbeans.updater]: 780: Unpacking com-se-sem4-group2-Map.nbm
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Map.xml@0
+INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/com-se-sem4-group2-Map.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Map.xml
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Map.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/com-se-sem4-group2-Map.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Map.jar
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update/download/com-se-sem4-group2-Map.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@28feb136
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Map.xml modified.
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Map.xml@0
+INFO [org.netbeans.updater]: 780: Unpacking com-se-sem4-group2-Core.nbm
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Core.xml@0
+INFO [org.netbeans.updater]: Copied file netbeans/config/Modules/com-se-sem4-group2-Core.xml to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/config/Modules/com-se-sem4-group2-Core.xml
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Core.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/com-se-sem4-group2-Core.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/com-se-sem4-group2-Core.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-box2d-platform-natives-desktop.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-box2d-platform-natives-desktop.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-box2d-platform-natives-desktop.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-box2d.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-box2d.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-box2d.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-controllers.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-controllers.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-controllers.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-freetype-platform-natives-desktop.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-freetype-platform-natives-desktop.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-freetype-platform-natives-desktop.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-freetype.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-freetype.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-freetype.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-platform-natives-desktop.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-platform-natives-desktop.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx-platform-natives-desktop.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-gdx/gdx.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-jlayer/jlayer.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-jlayer/jlayer.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/com-badlogicgames-jlayer/jlayer.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/net-java-jinput/jinput.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/net-java-jinput/jinput.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/net-java-jinput/jinput.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/net-java-jutils/jutils.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/net-java-jutils/jutils.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/net-java-jutils/jutils.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/org-jcraft/jorbis.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/org-jcraft/jorbis.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/org-jcraft/jorbis.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-linux.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-linux.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-linux.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-osx.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-osx.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-osx.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-windows.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-windows.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl-platform-natives-windows.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl.jar
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl_util.jar@0
+INFO [org.netbeans.updater]: Copied file netbeans/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl_util.jar to /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/modules/ext/com.se.sem4.group2.Core/org-lwjgl-lwjgl/lwjgl_util.jar
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update/download/com-se-sem4-group2-Core.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@5548a5f7
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Core.xml modified.
+INFO [org.netbeans.updater]: File installed /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update_tracking/com-se-sem4-group2-Core.xml@0
+INFO [org.netbeans.updater]: File /Users/casperbeese/AsteroidsCasni14/application/target/asteroidsnetbeansmodules/extra/update/download/additional_information.xml deleted.
